@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Ahimsha  
+### **An AI-powered Ahimsha experience.**  
 
-## Getting Started
+## 📌 Overview  
+Ahimsha is an innovative AI-powered platform inspired by the teachings of **Lord Mahaveer Ji**, promoting **non-violence (Ahimsa), compassion, and ethical living**. This project integrates **advanced AI** with Jain philosophy, helping users practice mindfulness, ethical decision-making, and a **violence-free** way of life.  
 
-First, run the development server:
+Ahimsha aims to:  
+- 🕊️ Spread the message of **Ahimsa (non-violence) in daily life**  
+- 📖 Provide AI-driven **spiritual guidance based on Jain principles**  
+- 🧘 Assist in practicing **meditation, self-discipline, and ethical living**  
+- 💡 Offer insights on **compassion, truth, and self-purification**  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🏗️ Tech Stack  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB with Prisma ORM  
+- **AI Integration:** OpenAI / Custom NLP models  
+- **Frontend:** React.js / Next.js  
+- **Deployment:** AWS / Vercel  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏆 Contributors  
+- **Shradesh Jodawat** - [GitHub](https://github.com/Shradhesh71)  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📜 License  
+This project is licensed under the **MIT License**.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Changes & Highlights
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✔️ **Ahimsa-focused overview based on Jain philosophy**  
+✔️ **Professional structure with clean documentation**  
+✔️ **Minimal & to the point (without technical overload)**  
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Let me know if you want any tweaks! 🚀
