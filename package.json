@@ -1,9 +1,10 @@
 {
   "name": "ahimsha",
   "version": "0.1.0",
+  "author": "Shradesh Jodawat",
   "private": true,
   "scripts": {
-    "build": "npm run prisma:generate && nest build",
+    "build": "npm run prisma:generate && next build",
     "prisma:generate": "prisma generate",
     "postinstall": "prisma generate",
     "dev": "next dev",
