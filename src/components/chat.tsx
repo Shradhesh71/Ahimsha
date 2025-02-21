@@ -94,7 +94,9 @@ const Chat = () => {
           </div>
         ))}
         {isLoading && (
-          <p className="text-center text-zinc-400">Reasoning your question</p>
+          <p className="text-center text-zinc-400 relative overflow-hidden">
+          <span className="inline-block animate-flowing">Reasoning your question</span>
+        </p>
         )}
       </div>
 
