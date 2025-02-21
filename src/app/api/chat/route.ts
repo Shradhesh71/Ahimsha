@@ -71,56 +71,6 @@ const safetySettings = [
 export async function POST(req: Request) {
   try {
     const { message } = await req.json();
-    const result3 = {
-      message:
-        "Jai Jinendra 🙏 Parth!\n" +
-        "\n" +
-        "---\n" +
-        "\n" +
-        "**The Path of Seva: Serving Others According to Mahaveer's Teachings**\n" +
-        "\n" +
-        "The question of how best to serve others is central to the Jain path.  It's not merely about acts of charity, but a profound commitment to Ahimsa (non-violence) and the liberation of all beings.  Mahaveer's teachings, as enshrined in various scriptures, illuminate this path.\n" +
-        "\n" +
-        "Let's explore this through the lens of some key texts:\n" +
-        "\n" +
-        "\n" +
-        "✅ **Ahimsa as the Supreme Seva (Non-Violence as the Highest Service):**\n" +
-        "\n" +
-        "The *Acharanga Sutra* emphasizes Ahimsa as the cornerstone of Jain Dharma.  Chapter 1, for instance, details the various forms of violence, both physical and mental, that should be avoided. Serving others authentically necessitates minimizing harm in all its aspects.\n" +
-        "\n" +
-        '>  "Ahimsā paramo dharmaḥ" (Ahimsa is the supreme dharma) - This succinct phrase encapsulates the essence of serving others by first committing to non-violence in thought, word, and deed.\n' +
-        "\n" +
-        "1️⃣ **Anuvrata – Practical Application of Ahimsa:**\n" +
-        "\n" +
-        "The *Uttaradhyayana Sutra* explores Anuvrata, the five minor vows, that provide a practical framework for daily life.  These vows, when diligently followed, allow for a consistent and meaningful approach to Seva.  For example, abstaining from falsehood (Satya) ensures clear and helpful communication, while abstaining from stealing (Asteya) safeguards the wellbeing of others.\n" +
-        "\n" +
-        '> "Ātmānam anugṛhṇāti, paraṃ cānugṛhṇāti, yam saṃyamo yaśca dharmaḥ” (Self-control and righteousness benefit both oneself and others) – Uttaradhyayana Sutra\n' +
-        "\n" +
-        "\n" +
-        "✅ **Aparigraha –  Detaching to Serve Better:**\n" +
-        "\n" +
-        "The principle of Aparigraha (non-attachment) from the *Tattvartha Sutra* is crucial for selfless service. By minimizing our material attachments, we free ourselves from the anxieties and desires that hinder true compassion. Serving others becomes less about self-gratification and more about genuine concern for their welfare.  This detachment allows for impartial service, devoid of expectations.\n" +
-        "\n" +
-        "\n" +
-        "1️⃣ **Karuna – Compassion as the Driving Force:**\n" +
-        "\n" +
-        "The *Bhaktamara Stotra*, through its devotional hymns, emphasizes Karuna (compassion) as a central virtue.  Serving others should be fueled by genuine empathy and a desire to alleviate suffering.  This compassion transcends boundaries of caste, creed, or species, extending to all living beings.\n" +
-        "\n" +
-        "\n" +
-        "✅ **Example of Ideal Seva from Paumachariya:**\n" +
-        "\n" +
-        "The *Jain Ramayana* (Paumachariya) exemplifies ideal seva through the actions of various characters.  Consider Bharata's unwavering dedication to his mother, or Lakshmana's selfless service to Rama. These examples depict the spirit of service as a continuous and devoted act, fueled by love and duty.\n" +
-        "\n" +
-        "\n" +
-        "---\n" +
-        "\n" +
-        "**In Conclusion:**\n" +
-        "\n" +
-        "Serving others best is accomplished by integrating Ahimsa, Anuvrata, Aparigraha and Karuna into our daily lives.  It is a continuous journey, guided by the wisdom of the Jain scriptures and the profound teachings of Bhagwan Mahaveer.  May this guidance illuminate your path of selfless service.  Remember, you are never alone on this path.\n" +
-        "\n" +
-        "---\n",
-    };
-    return NextResponse.json({ message: result3.message });
 
     if (!message) {
       return NextResponse.json(
@@ -159,7 +109,7 @@ export async function POST(req: Request) {
 
     const result = await chat.sendMessage(promptWithContext);
     const response = await result.response.text();
-    console.log({ message: response });
+    
     return NextResponse.json({ message: response });
   } catch (error) {
     console.log("Gemini API Streaming Error:", error);
