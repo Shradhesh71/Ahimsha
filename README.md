@@ -13,9 +13,9 @@ Ahimsha aims to:
 ## 🏗️ Tech Stack  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB with Prisma ORM  
-- **AI Integration:** OpenAI / Custom NLP models  
-- **Frontend:** React.js / Next.js  
-- **Deployment:** AWS / Vercel  
+- **AI Integration:** OpenAI 
+- **Frontend:** Next.js  
+- **Deployment:** Vercel  
 
 
 ## 🏆 Contributors  
