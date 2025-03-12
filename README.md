@@ -11,11 +11,11 @@ Ahimsha aims to:
 - 💡 Offer insights on **compassion, truth, and self-purification**  
 
 ## 🏗️ Tech Stack  
-- **Backend:** Node.js, Express.js  
+- **Backend:** Next.js
 - **Database:** MongoDB with Prisma ORM  
-- **AI Integration:** OpenAI / Custom NLP models  
-- **Frontend:** React.js / Next.js  
-- **Deployment:** AWS / Vercel  
+- **AI Integration:** OpenAI 
+- **Frontend:** Next.js  
+- **Deployment:** Vercel  
 
 
 ## 🏆 Contributors  
