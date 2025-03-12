@@ -2,6 +2,7 @@
 
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
+import Link from "next/link";
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
@@ -9,7 +10,9 @@ export default function Navbar() {
   return (
     <header className="w-full p-4 md:px-8">
       <nav className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Ahimsha </h1>
+        <Link href="/">
+          <h1 className="text-2xl font-bold">Ahimsha </h1>{" "}
+        </Link>
         <button
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           className="mt-4 p-2 border rounded-lg flex items-center gap-2"
